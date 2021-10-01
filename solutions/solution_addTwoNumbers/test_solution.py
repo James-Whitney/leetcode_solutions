@@ -1,4 +1,3 @@
-from typing import Optional
 import unittest
 from solution import Solution
 from solution import ListNode
