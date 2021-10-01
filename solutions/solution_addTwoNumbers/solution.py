@@ -1,5 +1,7 @@
-# Definition for singly-linked list.
 from typing import Optional
+
+# Solution to https://leetcode.com/problems/add-two-numbers/
+# ListNode class added to make tests work in vscode
 
 
 class ListNode:
