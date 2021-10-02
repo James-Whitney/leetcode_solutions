@@ -8,7 +8,6 @@ class H2O:
         self.h_lock = Semaphore(2)
         self.o_lock = Semaphore(1)
         self.water_barrier = Barrier(3)
-        pass
 
     def hydrogen(self, releaseHydrogen: "Callable[[], None]") -> None:
         with self.h_lock:
